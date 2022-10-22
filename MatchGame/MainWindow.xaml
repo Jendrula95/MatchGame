@@ -39,6 +39,7 @@
         <TextBlock Grid.Column = "1" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"   MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column = "2" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"   MouseDown="TextBlock_MouseDown"/>
         <TextBlock Grid.Column = "3" HorizontalAlignment="Center" Text="?" VerticalAlignment="Center" FontSize="36"   MouseDown="TextBlock_MouseDown"/>
+        <TextBlock x:Name="TimeTextBlock"  Grid.Row="4"  Text="Czas" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Grid.ColumnSpan="4" MouseDown="TimeTextBlock_MouseDown"/>
 
 
 
